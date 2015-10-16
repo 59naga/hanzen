@@ -1,4 +1,4 @@
-# Hanzen [![NPM version][npm-image]][npm] [![Build Status][travis-image]][travis] [![Coverage Status][coveralls-image]][coveralls]
+# 判然 [![NPM version][npm-image]][npm] [![Build Status][travis-image]][travis] [![Coverage Status][coveralls-image]][coveralls]
 
 [![Sauce Test Status][sauce-image]][sauce]
 
