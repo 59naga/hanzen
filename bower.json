@@ -1,6 +1,5 @@
 {
   "name": "hanzen",
-  "description": "Description",
 
   "main": [
     "hanzen.min.js"

@@ -29,6 +29,15 @@ $ bower install hanzen --save
 </script>
 ```
 
+### Via rawgit.com(the simple way)
+
+```html
+<script src="https://cdn.rawgit.com/59naga/hanzen/master/hanzen.min.js"></script>
+<script>
+  console.log(hanzen); //object
+</script>
+```
+
 # API
 
 ## .toHankaku(str) -> result
