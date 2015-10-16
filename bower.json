@@ -1,0 +1,47 @@
+{
+  "name": "hanzen",
+  "description": "Description",
+
+  "main": [
+    "hanzen.min.js"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "*.coffee",
+    "src",
+    "test"
+  ],
+
+  "opc-scripts": {
+    "build": [
+      "browserify ./src",
+      "--transform coffeeify",
+      "--standalone hanzen",
+      "--extension .coffee",
+      "--debug"
+    ],
+    "uglify": [
+      "uglifyjs",
+
+      "hanzen.js",
+      "--in-source-map",
+      "hanzen.js.map",
+
+      "--mangle",
+      "--compress",
+
+      "--output",
+      "hanzen.min.js",
+      "--source-map",
+      "hanzen.min.js.map"
+     ]
+  },
+
+  "authors": [
+    "59naga <i59naga@icloud.com>"
+  ],
+  "homepage": "https://github.com/59naga/hanzen",
+  "license": "MIT"
+}
